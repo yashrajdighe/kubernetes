@@ -2,6 +2,10 @@
 
 Your Secret can be encrypted into a SealedSecret, which is safe to store in a public repository as long as it is encrypted. Nobody (not even the original author) can decrypt the SealedSecret except the controller running in the target cluster.
 
+## How it works!!!
+
+![Sealed-Secret-Architecture](/images/sealed-secrets.drawio.png)
+
 ## Steps to use Sealed Secrets with Kubernetes Cluster:
 
 1. Deploy Bitnami Sealed Secret controller in the Kubernetes Cluster using [Helm Chart .](https://artifacthub.io/packages/helm/bitnami/sealed-secrets)
