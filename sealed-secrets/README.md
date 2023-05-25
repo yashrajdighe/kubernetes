@@ -4,7 +4,7 @@ Your Secret can be encrypted into a SealedSecret, which is safe to store in a pu
 
 ## How it works!!!
 
-![Sealed-Secret-Architecture](/images/sealed-secrets.drawio.png)
+![Sealed-Secret-Architecture](./images/sealed-secrets.drawio.png)
 
 ## Steps to use Sealed Secrets with Kubernetes Cluster:
 
